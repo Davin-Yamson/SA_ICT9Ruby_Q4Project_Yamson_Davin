@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crunchyroll</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            color: orange;
+            background-color: black
+            ;
+        }
+
+        .navbar {
+            background-color: #28282B;
+            flex-shrink: 0;
+            text-decoration-color: orange;
+            font-style: color: orange;
+            padding: 5px;
+            word-spacing: 10px;
+            font-size: 20px;
+            width: 100%;
+            height: 75px;
+        }
+
+        .navbar-brand {
+            color: orange;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: orange;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            color: #ccc;
+        }
+
+        li {
+            font-family: sans-serif;
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        li img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .bordered-text {
+            border: 1px solid orange;
+            padding: 10px;
+            margin-left: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+                          <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <img src="Crunchyroll.png" width="50">
+                        <a class="nav-link" href="#shows">Shows</a>
+                        <a class="nav-link" href="#synopses">Synopses</a>
+                        <a class="nav-link" href="#Trending">Trending</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container flex-grow-1">
+        <h1 id="movies" class="mt-5">Shows</h1>
+        <ul class="list-unstyled">
+            <li>Naruto</li>
+            <li>Jujutsu Kaisen</li>
+            <li>Dragon Ball Z</li>
+        </ul>
+
+        <h2 id="synopses" class="mt-5">Synopses</h2>
+        <ul class="list-unstyled">
+            <li>
+                <img src="Naruto.jpg" width="300" height="auto">
+                <div class="bordered-text">
+                    <p>Recommendation of the day </p>
+                    <p>In a world with extraordinary powers called "Ninjutsu" you follow a bullied boy named "Naruto" and his Journey</p>
+                    <p>Cast: Naruto (Junko Takeuchi) Sasuke (Noriaki Sugiyama) Sakura (Chie Nakamura) Kakashi (Kazuhuki Inoue)</p>
+                    <p>Rating 4.6/5</p>
+                </div>
+            </li>
+            <div class="bordered-text">
+        <li> <img src="JJK.jpg" width="300" height="auto">
+            <p>We follow our main character Yuji Itadori who stumbles upon a cursed finger of a powerful cursed spirit named Sukuna. After eating the said finger our Yuji Itadori gains power.</p>
+            <p>Cast: Itadori (Junya Enoki) Gojo (Yuichi Nakamura) Megumi (Yuma Uchida) Nobara (Asami Seto)</p>
+            <p>Rating 4.3/5</p>
+        </div>
+
+         </li>
+         <div class="bordered-text">
+        <li><img src="DBZ.jpg" width="300" height="auto">
+            <p>Follow Goku our main character and his friends while he fights the evil that attack the Earth!</p>
+            <p>Cast: Goku (Masako Nozawa) Vegeta (Ryō Horikawa) Trunks (Takeshi Kusao) Gohan (Masako Nozawa)
+            <p>Rating 4.9/5</p>
+        </div>
+         </li>
+    </div>
+</ul>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
